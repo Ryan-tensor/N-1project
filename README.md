@@ -32,11 +32,11 @@ N가지의 것들을 포기한 세대를 뜻하는 신조어. 2010년대 기준�
 **실험 환경**
 
 ```
-*i7-6700HQ (2.6GHz) / Ram : DDR3L, 8Gb / 
-*M.2  :250GB / 그래픽카드 : GTX960M
-*C언어 IDE : visual studio2015
-*파이썬 : python3.6, PyCharm community edition
-*tensorflow : 1.1 version
+i7-6700HQ (2.6GHz) / Ram : DDR3L, 8Gb / 
+M.2  :250GB / 그래픽카드 : GTX960M
+C언어 IDE : visual studio2015
+파이썬 : python3.6, PyCharm community edition
+tensorflow : 1.1 version
 ```
 
 **실험 (training set)**
@@ -76,10 +76,11 @@ N가지의 것들을 포기한 세대를 뜻하는 신조어. 2010년대 기준�
 ```
 또한 C언어와 파이썬의 코드와 실행결과를 비교해보면 130줄과 30줄의 차이로 4배 이상의 차이가 있었.
 C언어로는 머신러닝 이론 그대로 구현하였고 파이썬은 Tensorflow라는 라이브러리를 사용하였고 
-정규화가 안 되어 있을수록 C언어의 cost value가 작았으나 정규화에 가까운 training set일 경우 tensorflow의 cost value가 적었다. 
+정규화가 안 되어 있을수록 C언어의 cost value가 작았으나 
+정규화에 가까운 training set일 경우 tensorflow의 cost value가 적었다. 
 ```
 ```
-tensorflow의 라이브러리 안의 소스를 볼 수가 없어 비교는 못하였으나 정규화를 하여 tensorflow를 사용한다면 더 좋은 결과를 얻을 수 있을 것이다.
+tensorflow의 라이브러리 정규화를 하여 사용한다면 직접 구현하는 방식보다 더 좋은 결과를 얻을 수 있을 것이다.
 ```
 ### 참고자료
 기초프로그래밍 - 머신러닝예제(C언어로 linear Regression구현)
